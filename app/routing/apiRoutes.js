@@ -22,10 +22,13 @@ module.exports = function (app){
 
         console.log(req.body)
 
+  
 
         var userData = req.body;
         var userScores = userData.scores;
 
+        var userName = userData.name;
+        var userPhoto = userData.photo;
 
         var totalDifference = 0;
 
